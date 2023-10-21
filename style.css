@@ -1708,6 +1708,15 @@ p {
     padding: 0 10px !important;
 }
 
+.email-btn{
+    display: block !important;
+}
+.try-btn{
+    display: block !important;
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-top: 10px;
+}
 }
 
 @media(max-width: 991.98px) {
@@ -1725,6 +1734,11 @@ p {
         left: -500px;
         transform: rotate(70deg);
     }
+    
+    .parallax-layer {
+        left: unset !important;
+    }
+
 }
 
 @media(max-width: 1199.98px) {
