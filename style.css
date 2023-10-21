@@ -996,6 +996,7 @@ h6 {
     .container-sm {
         max-width: 100%
     }
+
 }
 
 @media(min-width:768px) {
@@ -1195,7 +1196,6 @@ h6 {
 
 
 
-
 }
 
 @media(min-width:768px) {
@@ -1267,6 +1267,7 @@ h6 {
         flex: 0 0 auto;
         width: 100%
     }
+
 
 }
 
@@ -1519,9 +1520,10 @@ h6 {
     }
 }
 
-.d-flex{
-     display: flex;
+.d-flex {
+    display: flex;
 }
+
 .justify-content-start {
     justify-content: flex-start !important
 }
@@ -1639,17 +1641,37 @@ h6 {
     [data-disable-parallax-down=sm] {
         transform: none !important
     }
+
 }
 
 @media(max-width: 767.98px) {
     [data-disable-parallax-down=md] {
         transform: none !important
     }
+
+    .why-background-img {
+        display: none !important;
+    }
+
+    .parallax-sec p {
+        text-align: justify !important;
+    }
+    .parallax-sec h2 {
+        text-align: center !important;
+    }
+
 }
 
 @media(max-width: 991.98px) {
     [data-disable-parallax-down=lg] {
         transform: none !important
+    }
+    .why-background-img {
+        height: 200% !important;
+        width: auto;
+        /* right: le; */
+        left: -500px;
+        transform: rotate(70deg);
     }
 }
 
@@ -1846,9 +1868,9 @@ h6 {
     letter-spacing: 0px;
     color: #1E1C24;
     opacity: 1;
-    
-        margin-top: 13rem !important;
-    
+
+    margin-top: 13rem !important;
+
 }
 
 .key-benifits h5 {
@@ -1866,7 +1888,7 @@ h6 {
     text-align: center;
 }
 
-.no-padding {   
+.no-padding {
     padding: 0 !important;
 }
 
@@ -1895,47 +1917,50 @@ h6 {
     color: #1E1C24;
     opacity: 1;
 }
-.parallax-sec p{
+
+.parallax-sec p {
     text-align: left;
     font-family: 'Poppins', sans-serif;
-letter-spacing: 0px;
-color: #B1AAAA;
-opacity: 1;
-line-height: 1.5;
-font-size: 16px;
+    letter-spacing: 0px;
+    color: #B1AAAA;
+    opacity: 1;
+    line-height: 1.5;
+    font-size: 16px;
 }
 
-.parallax-sec a{
+.parallax-sec a {
     font-weight: 700;
     text-align: left;
     font-family: 'Poppins', sans-serif;
-letter-spacing: 0px;
-color: #1E1C24;
-opacity: 1;
-text-decoration: none;
+    letter-spacing: 0px;
+    color: #1E1C24;
+    opacity: 1;
+    text-decoration: none;
 
 }
 
 /* section 3rd done */
 
 /* section 4rd start */
-.get-in-touch-sec h2{
+.get-in-touch-sec h2 {
     text-align: center;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-letter-spacing: 0px;
-color: #1E1C24;
-opacity: 1;
-}
-.get-in-touch-sec p{
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;letter-spacing: 0px;
-color: #1E1C24;
-opacity: 1;
+    letter-spacing: 0px;
+    color: #1E1C24;
+    opacity: 1;
 }
 
-.get-in-touch-sec .email-btn{
+.get-in-touch-sec p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #1E1C24;
+    opacity: 1;
+}
+
+.get-in-touch-sec .email-btn {
     text-align: left;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.8px;
@@ -1943,11 +1968,13 @@ opacity: 1;
     border-radius: 100px;
     padding: 15px;
     color: #ddd;
-    
+
 }
+
 .offset-1 {
     margin-left: 8.33333333%
 }
+
 .offset-2 {
     margin-left: 16.66666667%
 }
