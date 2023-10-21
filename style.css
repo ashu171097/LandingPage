@@ -6,6 +6,7 @@ body {
     background-color: #fff;
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 .h1,
@@ -1876,7 +1877,7 @@ h6 {
 .why-background-img {
     height: 160%;
     width: auto;
-    right: le;
+    top: -50px;
     left: -500px;
     transform: rotate(70deg);
 }
@@ -1949,4 +1950,10 @@ opacity: 1;
 }
 .offset-2 {
     margin-left: 16.66666667%
+}
+
+.get-in-touch-image-container { 
+    right: -160px;
+    transform: rotate(10deg);
+    bottom: -150px;
 }
