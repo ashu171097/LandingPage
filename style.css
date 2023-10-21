@@ -1675,6 +1675,14 @@ h6 {
 .get-in-touch-image-container{
     display: none;
 }
+
+.offset-2 {
+    margin-left: unset !important;
+}
+
+.parallax-layer{
+    left: unset !important;
+}
 }
 
 @media(max-width: 991.98px) {
