@@ -1752,6 +1752,12 @@ p {
     }
 }
 
+@media(min-width: 1500px) {
+    .why-background-img {
+        left: -600px !important;
+    }
+}
+
 .parallax {
     position: relative
 }
