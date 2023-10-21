@@ -1859,7 +1859,7 @@ section{
 }
 
 .hero-background-img {
-    background-image: url(Assets/1.Hero/Hero_Shapes.svg);
+    background-image: url(assets/Hero/Hero_Shapes.svg);
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
