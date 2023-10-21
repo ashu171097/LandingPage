@@ -1881,18 +1881,20 @@ h6 {
     top: 346px;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .7s ease;
-    background-color: #339c57;
-  }
+.nav-tryfree{
+    border: 2px solid #FFFFFF;
+border-radius: 100px;
+opacity: 1;
+text-align: left;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 1.08px;
+color: #fff;
+position: absolute;
+    right: 7px;
+    z-index: 99;
+    top: 18px;
+    padding: 10px 20px;
+}
 
 /* Section 1 end */
 
