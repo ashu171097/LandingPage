@@ -1858,13 +1858,22 @@ h6 {
     text-align: center;
 }
 
-.no-padding {
+.no-padding {   
     padding: 0 !important;
 }
 
 .no-margin {
     margin: 0 !important;
 }
+
+.why-background-img {
+    height: 160%;
+    width: auto;
+    right: le;
+    left: -36%;
+    transform: rotate(70deg);
+}
+
 /* section 2 end */
 
 /* section 3rd start */
