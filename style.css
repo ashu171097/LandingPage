@@ -1800,12 +1800,37 @@ h6 {
     opacity: 0.5;
 }
 
-.img-section {
+.hero-background-img {
     background-image: url(Assets/1.Hero/Hero_Shapes.svg);
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 262%;
+    width: 100%;
+    bottom: 10p;
+    bottom: -67%;
+    left: 19%;
 }
+
+.full-image {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-image2 {
+    top: 170px;
+}
+
+.hero-image3 {
+    top: 325px;
+    left: 180px;
+}
+
+.hero-image4 {
+    top: 346px;
+}
+
+
 
 /* Section 1 end */
 
@@ -1831,4 +1856,12 @@ opacity: 1;
     font-weight: 500;
     color: #B1AAAA;
     text-align: center;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
 }
