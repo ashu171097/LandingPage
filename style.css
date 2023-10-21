@@ -1711,6 +1711,10 @@ p {
 }
 
 @media(max-width: 991.98px) {
+    html, body {
+        overflow-x: hidden !important;
+    }
+    
     [data-disable-parallax-down=lg] {
         transform: none !important
     }
